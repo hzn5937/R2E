@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD1\\AssignmentD1\\AssignmentD1.csproj": {}
+    "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD2\\AssignmentD2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD1\\AssignmentD1\\AssignmentD1.csproj": {
+    "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD2\\AssignmentD2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD1\\AssignmentD1\\AssignmentD1.csproj",
-        "projectName": "AssignmentD1",
-        "projectPath": "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD1\\AssignmentD1\\AssignmentD1.csproj",
-        "packagesPath": "C:\\Users\\harun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD1\\AssignmentD1\\obj\\",
+        "projectUniqueName": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD2\\AssignmentD2.csproj",
+        "projectName": "AssignmentD2",
+        "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD2\\AssignmentD2.csproj",
+        "packagesPath": "C:\\Users\\hzn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\C# Fundamentals\\AssignmentD2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\harun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hzn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -12,56 +12,55 @@ namespace AssignmentD2
             try
             {
                 Console.Write("Enter car make: ");
-                string? make = Console.ReadLine();
+                string? make = Console.ReadLine()?.Trim();
                 
                 while (string.IsNullOrWhiteSpace(make))
                 {
                     Console.Write("Please enter a valid car make: ");
-                    make = Console.ReadLine();
+                    make = Console.ReadLine()?.Trim();
                 }
 
                 Console.Write("Enter car model: ");
-                string? model = Console.ReadLine();
+                string? model = Console.ReadLine()?.Trim();
 
                 while (string.IsNullOrWhiteSpace(model))
                 {
                     Console.Write("Please enter a valid car model: ");
-                    model = Console.ReadLine();
+                    model = Console.ReadLine()?.Trim();
                 }
 
                 Console.Write("Enter car year (e.g., 2020): ");
-                string? yearInput = Console.ReadLine();
+                string? yearInput = Console.ReadLine()?.Trim();
                 int year;
                 int currentYear = DateTime.Now.Year;
                 string? errorMessage;
 
-                // TryParse return true if the conversion succeeded 
                 while (!WithinValidYear(yearInput, 1886, currentYear, out year))
                 {
                     Console.WriteLine("Invalid year! Please enter a valid year between 1886 and the current year");
                     Console.Write("Enter car year (e.g., 2020): ");
-                    yearInput = Console.ReadLine();
+                    yearInput = Console.ReadLine()?.Trim();
                 }
 
                 Console.Write("Enter last maintenance date (yyyy-MM-dd): ");
-                string? lastMaintenanceDateInput = Console.ReadLine();
+                string? lastMaintenanceDateInput = Console.ReadLine()?.Trim();
                 DateTime lastMaintenanceDate;
 
                 while (!WithinValidYear(lastMaintenanceDateInput, "yyyy-MM-dd", year, currentYear, out lastMaintenanceDate, out errorMessage))
                 {
                     Console.WriteLine(errorMessage);
                     Console.Write("Enter last maintenance date (yyyy-MM-dd): ");
-                    lastMaintenanceDateInput = Console.ReadLine();
+                    lastMaintenanceDateInput = Console.ReadLine()?.Trim();
                 }
 
                 Console.Write("Is this a FuelCar or ElectricCar? (F/E): ");
-                string? carType = Console.ReadLine();
+                string? carType = Console.ReadLine()?.Trim();
 
                 while (!IsValidOption(carType, new string[] { "F", "E" }))
                 {
                     Console.WriteLine(@"Invalid input! Please enter 'F' for FuelCar or 'E' for ElectricCar");
                     Console.Write("Is this a FuelCar or ElectricCar? (F/E): ");
-                    carType = Console.ReadLine();
+                    carType = Console.ReadLine()?.Trim();
                 }
 
                 Car car = carType.Equals("e", StringComparison.OrdinalIgnoreCase) ? 
@@ -71,13 +70,13 @@ namespace AssignmentD2
                 car.DisplayDetails();
 
                 Console.Write("Do you want to refuel/charge? (Y/N): ");
-                string? refuelOrCharge = Console.ReadLine();
+                string? refuelOrCharge = Console.ReadLine()?.Trim();
 
                 while(!IsValidOption(refuelOrCharge, new string[] { "Y", "N" }))
                 {
                     Console.WriteLine(@"Invalid input! Please enter 'Y' to refuel/charge or 'N' to skip");
                     Console.Write("Do you want to refuel/charge? (Y/N): ");
-                    refuelOrCharge = Console.ReadLine();
+                    refuelOrCharge = Console.ReadLine()?.Trim();
                 }
 
                 if (refuelOrCharge.Equals("n", StringComparison.OrdinalIgnoreCase))
@@ -86,14 +85,14 @@ namespace AssignmentD2
                 }
 
                 Console.Write("Enter refuel/charge date and time (yyyy-MM-dd HH:mm): ");
-                string? dateTimeString = Console.ReadLine();
+                string? dateTimeString = Console.ReadLine()?.Trim();
                 DateTime fuelOrChargeDateTime;
 
                 while (!WithinValidYear(dateTimeString, "yyyy-MM-dd HH:mm", year, currentYear, out fuelOrChargeDateTime, out errorMessage))
                 {
                     Console.WriteLine(errorMessage);
                     Console.Write("Enter refuel/charge date and time (yyyy-MM-dd HH:mm): ");
-                    dateTimeString = Console.ReadLine();
+                    dateTimeString = Console.ReadLine()?.Trim();
                 }
 
                 if (car is FuelCar fuelCar)
@@ -136,7 +135,7 @@ namespace AssignmentD2
 
         static bool IsValidOption(string option, string[] validOptions)
         {
-            return validOptions.Contains(option.Trim(), StringComparer.OrdinalIgnoreCase);
+            return validOptions.Contains(option, StringComparer.OrdinalIgnoreCase);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Globalization;
 using System.Net.Sockets;
+using System.Reflection.Metadata.Ecma335;
 using Microsoft.VisualBasic;
 
 namespace AssignmentD2
@@ -13,18 +14,18 @@ namespace AssignmentD2
                 Console.Write("Enter car make: ");
                 string? make = Console.ReadLine();
                 
-                while (string.IsNullOrEmpty(make))
+                while (string.IsNullOrWhiteSpace(make))
                 {
-                    Console.WriteLine("Please enter a valid car make: ");
+                    Console.Write("Please enter a valid car make: ");
                     make = Console.ReadLine();
                 }
 
                 Console.Write("Enter car model: ");
                 string? model = Console.ReadLine();
 
-                while (string.IsNullOrEmpty(model))
+                while (string.IsNullOrWhiteSpace(model))
                 {
-                    Console.WriteLine("Please enter a valid car model: ");
+                    Console.Write("Please enter a valid car model: ");
                     model = Console.ReadLine();
                 }
 
@@ -32,10 +33,10 @@ namespace AssignmentD2
                 string? yearInput = Console.ReadLine();
                 int year;
                 int currentYear = DateTime.Now.Year;
+                string? errorMessage;
 
                 // TryParse return true if the conversion succeeded 
-                while (!int.TryParse(yearInput, out year) || 
-                    !WithinValidYear(year, 1886, currentYear))
+                while (!WithinValidYear(yearInput, 1886, currentYear, out year))
                 {
                     Console.WriteLine("Invalid year! Please enter a valid year between 1886 and the current year");
                     Console.Write("Enter car year (e.g., 2020): ");
@@ -46,19 +47,15 @@ namespace AssignmentD2
                 string? lastMaintenanceDateInput = Console.ReadLine();
                 DateTime lastMaintenanceDate;
 
-                while (!DateTime.TryParseExact(lastMaintenanceDateInput, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out lastMaintenanceDate) ||
-                    !WithinValidYear(lastMaintenanceDate.Year, year, currentYear))
+                while (!WithinValidYear(lastMaintenanceDateInput, "yyyy-MM-dd", year, currentYear, out lastMaintenanceDate, out errorMessage))
                 {
-                    Console.WriteLine("Invalid date format! Please enter a valid date");
+                    Console.WriteLine(errorMessage);
                     Console.Write("Enter last maintenance date (yyyy-MM-dd): ");
                     lastMaintenanceDateInput = Console.ReadLine();
                 }
 
                 Console.Write("Is this a FuelCar or ElectricCar? (F/E): ");
                 string? carType = Console.ReadLine();
-
-                //while (!carType.Equals("f", StringComparison.OrdinalIgnoreCase) 
-                //    && !carType.Equals("e", StringComparison.OrdinalIgnoreCase))
 
                 while (!IsValidOption(carType, new string[] { "F", "E" }))
                 {
@@ -76,9 +73,6 @@ namespace AssignmentD2
                 Console.Write("Do you want to refuel/charge? (Y/N): ");
                 string? refuelOrCharge = Console.ReadLine();
 
-                //while (!refuelOrCharge.Equals("y", StringComparison.OrdinalIgnoreCase) &&
-                //    !refuelOrCharge.Equals("n", StringComparison.OrdinalIgnoreCase))
-
                 while(!IsValidOption(refuelOrCharge, new string[] { "Y", "N" }))
                 {
                     Console.WriteLine(@"Invalid input! Please enter 'Y' to refuel/charge or 'N' to skip");
@@ -90,29 +84,26 @@ namespace AssignmentD2
                 {
                     return;
                 }
-                    
+
                 Console.Write("Enter refuel/charge date and time (yyyy-MM-dd HH:mm): ");
                 string? dateTimeString = Console.ReadLine();
                 DateTime fuelOrChargeDateTime;
 
-                while (!DateTime.TryParseExact(dateTimeString, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out fuelOrChargeDateTime) ||
-                    !WithinValidYear(fuelOrChargeDateTime.Year, year, currentYear))
+                while (!WithinValidYear(dateTimeString, "yyyy-MM-dd HH:mm", year, currentYear, out fuelOrChargeDateTime, out errorMessage))
                 {
-                    Console.WriteLine("Invalid date format! Please enter a valid date.");
+                    Console.WriteLine(errorMessage);
                     Console.Write("Enter refuel/charge date and time (yyyy-MM-dd HH:mm): ");
                     dateTimeString = Console.ReadLine();
                 }
 
-                DateTime dateTime = DateTime.Parse(dateTimeString);
-
                 if (car is FuelCar fuelCar)
                 {
-                    fuelCar.Refuel(dateTime);
+                    fuelCar.Refuel(fuelOrChargeDateTime);
                 }
                 else
                 {
                     ElectricCar electricCar = (ElectricCar)car;
-                    electricCar.Charge(dateTime);
+                    electricCar.Charge(fuelOrChargeDateTime);
                 }
             }
             catch (Exception ex)
@@ -120,9 +111,27 @@ namespace AssignmentD2
                 Console.WriteLine($"Error: {ex}");
             }
         }
-        static bool WithinValidYear(int yearInput, int year, int currentYear)
+
+        static bool WithinValidYear(string? yearInput, int minYear, int maxYear, out int year)
         {
-            return yearInput >= year && yearInput <= currentYear;
+            return int.TryParse(yearInput, out year) && year >= minYear && year <= maxYear;
+        }
+        static bool WithinValidYear(string? dateInput, string format, int minYear, int maxYear, out DateTime date, out string? errorMessage)
+        {
+            if (!DateTime.TryParseExact(dateInput, format, CultureInfo.InvariantCulture, DateTimeStyles.None, out date))
+            {
+                errorMessage = $"Invalid date format! Please enter a date in the format {format}.";
+                return false;
+            }
+
+            if (date.Year < minYear || date.Year > maxYear)
+            {
+                errorMessage = $"Invalid date! Please enter a date between {minYear} and {maxYear}.";
+                return false;
+            }
+
+            errorMessage = null;
+            return true;
         }
 
         static bool IsValidOption(string option, string[] validOptions)

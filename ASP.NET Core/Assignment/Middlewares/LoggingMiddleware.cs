@@ -9,11 +9,6 @@ namespace Assignment.Middlewares
         public LoggingMiddleware(RequestDelegate next)
         {
             _next = next;
-            var logDir = Path.GetDirectoryName(_logFilePath);
-            //if (!string.IsNullOrEmpty(logDir) && !Directory.Exists(logDir))
-            //{
-            //    Directory.CreateDirectory(logDir);
-            //}
         }
 
         public async Task InvokeAsync(HttpContext context)

@@ -1,0 +1,15 @@
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\bin\Debug\net8.0\Assignment1.BusinessLogic.deps.json
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\bin\Debug\net8.0\Assignment1.BusinessLogic.dll
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\bin\Debug\net8.0\Assignment1.BusinessLogic.pdb
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\bin\Debug\net8.0\Assignment1.Data.dll
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\bin\Debug\net8.0\Assignment1.Data.pdb
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\Assignment1.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\Assignment1.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\Assignment1.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\Assignment1.BusinessLogic.AssemblyInfo.cs
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\Assignment1.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\Assignme.9E3661C8.Up2Date
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\Assignment1.BusinessLogic.dll
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\refint\Assignment1.BusinessLogic.dll
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\Assignment1.BusinessLogic.pdb
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.BusinessLogic\obj\Debug\net8.0\ref\Assignment1.BusinessLogic.dll

@@ -1,0 +1,12 @@
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\bin\Debug\net8.0\Assignment1.Data.deps.json
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\bin\Debug\net8.0\Assignment1.Data.dll
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\bin\Debug\net8.0\Assignment1.Data.pdb
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\Assignment1.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\Assignment1.Data.AssemblyInfoInputs.cache
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\Assignment1.Data.AssemblyInfo.cs
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\Assignment1.Data.csproj.CoreCompileInputs.cache
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\Assignment1.Data.dll
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\refint\Assignment1.Data.dll
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\Assignment1.Data.pdb
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\ref\Assignment1.Data.dll
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\MVC .NET Core\Assignment1\Assignment1.Data\obj\Debug\net8.0\Assignment1.Data.csproj.AssemblyReference.cache

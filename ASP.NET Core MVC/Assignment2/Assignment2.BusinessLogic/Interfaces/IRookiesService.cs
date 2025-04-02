@@ -15,6 +15,7 @@ namespace Assignment2.BusinessLogic.Interfaces
         void UpdateRookie(RookieInputDto rookie);
         void DeleteRookie(int id);
         RookieOutputDto GetRookieById(int id);
+        PaginatedRookieOutputDto GetPaginatedRookies(int pageNum);
         Stream GetExcel();
     }
 }

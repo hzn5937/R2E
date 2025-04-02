@@ -4,6 +4,7 @@ using Assignment2.Data.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Assignment2.Model.RookieDto;
 using Assignment2.BusinessLogic.Services;
+using DocumentFormat.OpenXml.Wordprocessing;
 
 namespace Assignment2.Controllers
 {
@@ -25,12 +26,13 @@ namespace Assignment2.Controllers
         }
 
         [HttpGet("Rookies/All")]
-        public IActionResult ViewAllRookies()
+        public IActionResult ViewAllRookies(int pageNum=1)
         {
             try
             {
-                List<RookieOutputDto> rookies = _rookiesService.GetAllRookies();
-                return View(rookies);
+                PaginatedRookieOutputDto paginatedRookies = _rookiesService.GetPaginatedRookies(pageNum);
+
+                return View(paginatedRookies);
             }
             catch (Exception e)
             {

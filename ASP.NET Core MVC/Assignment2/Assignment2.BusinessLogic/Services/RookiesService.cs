@@ -3,6 +3,7 @@ using Assignment2.Data.Models;
 using Assignment2.Data.Interfaces;
 using ClosedXML.Excel;
 using Assignment2.Model.RookieDto;
+using DocumentFormat.OpenXml.Wordprocessing;
 
 namespace Assignment2.BusinessLogic.Services
 {
@@ -13,6 +14,42 @@ namespace Assignment2.BusinessLogic.Services
         public RookiesService(IRookiesRepository rookiesRepository)
         {
             _rookiesRepository = rookiesRepository;
+        }
+
+        public PaginatedRookieOutputDto GetPaginatedRookies(int pageNum)
+        {
+            List<RookieOutputDto> rookies = _rookiesRepository.GetAllRookies();
+
+            int pageSize = 5;
+
+            int totalRookies = rookies.Count;
+
+            var totalPages = (int)Math.Ceiling(totalRookies / (double)pageSize);
+
+            List<RookieOutputDto> paginatedRookies = new List<RookieOutputDto>();
+
+            //List<RookieOutputDto> paginatedRookies = rookies.Skip((pageNum - 1) * pageSize).Take(pageSize).ToList();
+            if (pageNum < totalPages)
+            {
+                paginatedRookies = rookies.Skip((pageNum - 1) * pageSize).Take(pageSize).ToList();
+            }
+            else
+            {
+                int takes = totalRookies - ((pageNum - 1) * pageSize);
+                paginatedRookies = rookies.Skip((pageNum - 1) * pageSize).Take(takes).ToList();
+            }
+
+            PaginatedRookieOutputDto output = new PaginatedRookieOutputDto()
+            {
+                Rookies = paginatedRookies,
+                PageSize = pageSize,
+                PageNumber = pageNum,
+                TotalPage = totalPages,
+                HasNext = pageNum < totalPages,
+                HasPrevious = pageNum > 1
+            };
+
+            return output;
         }
 
         public RookieOutputDto GetRookieById(int id)

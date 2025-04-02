@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Assignment2.Model.RookieDto.RookieOutputDto>
+﻿@model Assignment2.Model.RookieDto.PaginatedRookieOutputDto
 
 @{
     ViewData["Title"] = "ViewAllRookies";
@@ -20,7 +20,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Id)
+                Id
             </th>
             <th>
                 Full Name
@@ -28,7 +28,7 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) 
+@foreach (var item in Model.Rookies) 
 {
         <tr>
             
@@ -45,6 +45,36 @@
 }       
     </tbody>
 </table>
+
+<hr />
+
+@* --- Pagination Controls --- *@
+<div>
+    @{
+        // Calculate previous and next page numbers
+        var prevPage = @Model.PageNumber - 1;
+        var nextPage = @Model.PageNumber + 1;
+
+        // Basic Previous/Next Links
+        <a asp-action="ViewAllRookies"
+           asp-route-pageNum="@prevPage"
+           class="btn btn-outline-secondary @(!@Model.HasPrevious ? "disabled" : "")">
+            &laquo; Previous
+        </a>
+
+        <span>&nbsp; Page @Model.PageNumber of @Model.TotalPage &nbsp;</span>
+
+        <a asp-action="ViewAllRookies"
+           asp-route-pageNum="@nextPage"
+           class="btn btn-outline-secondary @(!@Model.HasNext ? "disabled" : "")">
+            Next &raquo;
+        </a>
+
+        @* Optional: Add numbered page links (more complex logic) *@
+        @* You might loop from 1 to totalPages, adding links, potentially
+    showing only a subset of page numbers if totalPages is large. *@
+    }
+</div>
 
 <div>
     <a asp-action="Index">Back to Action List</a>

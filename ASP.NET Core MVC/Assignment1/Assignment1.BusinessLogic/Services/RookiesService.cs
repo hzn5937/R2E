@@ -3,11 +3,7 @@ using Assignment1.Data.Interfaces;
 using Assignment1.Data.Models;
 using ClosedXML.Excel;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Assignment1.BusinessLogic.Services
 {

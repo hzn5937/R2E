@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Assignment2.Data.Models.Person>
+
+@{
+    ViewData["Title"] = "GetFullnames";
+}
+
+<h1>Rookies' Full Names</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                Full Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @item.FullName()
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index">Back to Action List</a>
+</div>

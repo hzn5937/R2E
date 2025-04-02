@@ -10,9 +10,6 @@ using Microsoft.Extensions.Logging;
 
 namespace Assignment1.Data.Repositories
 {
-
-    
-
     public class RookiesRepository : IRookiesRepository
     {
         private readonly ILogger<RookiesRepository> _logger;

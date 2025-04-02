@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Assignment2.Data.Models.Person>
+
+@{
+    ViewData["Title"] = "ViewAllRookies";
+}
+
+<h1>Rookies</h1>
+
+@if (TempData["DeleteSuccessMsg"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["DeleteSuccessMsg"]
+    </div>
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                Full Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) 
+{
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                    <a class="link-primary" asp-action="Details" asp-route-rookieId="@item.Id">@item.FirstName @item.LastName</a>
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { rookieId = item.Id })
+            </td>
+        </tr>
+}       
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index">Back to Action List</a>
+</div>

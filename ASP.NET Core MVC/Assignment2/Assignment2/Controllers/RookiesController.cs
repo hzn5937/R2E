@@ -25,7 +25,7 @@ namespace Assignment2.Controllers
         }
 
         [HttpGet("Rookies/All")]
-        public IActionResult ViewAllRookies(int pageNum)
+        public IActionResult ViewAllRookies()
         {
             try
             {

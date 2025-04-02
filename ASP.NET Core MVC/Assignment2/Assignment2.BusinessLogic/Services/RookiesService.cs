@@ -37,53 +37,53 @@ namespace Assignment2.BusinessLogic.Services
             _rookiesRepository.AddRookie(rookie);
         }
 
-        public List<Person> GetMales()
+        public List<RookieOutputDto> GetMales()
         {
-            List<Person> maleRookies = _rookiesRepository.GetMales();
+            List<RookieOutputDto> maleRookies = _rookiesRepository.GetMales();
 
             return maleRookies;
         }
 
-        public Person GetOldestRookie()
+        public RookieOutputDto GetOldestRookie()
         {
-            List<Person> rookies = _rookiesRepository.GetAllRookies();
+            List<RookieOutputDto> rookies = _rookiesRepository.GetAllRookies();
 
-            Person oldest = rookies.OrderByDescending(p => p.DateOfBirth).Last();
+            RookieOutputDto oldest = rookies.OrderByDescending(p => p.DateOfBirth).Last();
 
             return oldest;
         }
 
-        public List<Person> GetAllRookies()
+        public List<RookieOutputDto> GetAllRookies()
         {
-            List<Person> rookies = _rookiesRepository.GetAllRookies();
+            List<RookieOutputDto> rookies = _rookiesRepository.GetAllRookies();
 
             return rookies;
         }
 
-        public List<Person> GetRookiesBornIn(int year)
+        public List<RookieOutputDto> GetRookiesBornIn(int year)
         {
-            List<Person> rookies = _rookiesRepository.GetRookiesBornIn(year);
+            List<RookieOutputDto> rookies = _rookiesRepository.GetRookiesBornIn(year);
 
             return rookies;
         }
 
-        public List<Person> GetRookiesBornAfter(int year)
+        public List<RookieOutputDto> GetRookiesBornAfter(int year)
         {
-            List<Person> rookies = _rookiesRepository.GetRookiesBornAfter(year);
+            List<RookieOutputDto> rookies = _rookiesRepository.GetRookiesBornAfter(year);
 
             return rookies;
         }
 
-        public List<Person> GetRookiesBornBefore(int year)
+        public List<RookieOutputDto> GetRookiesBornBefore(int year)
         {
-            List<Person> rookies = _rookiesRepository.GetRookiesBornBefore(year);
+            List<RookieOutputDto> rookies = _rookiesRepository.GetRookiesBornBefore(year);
 
             return rookies;
         }
 
         public Stream GetExcel()
         {
-            List<Person> rookies = _rookiesRepository.GetAllRookies();
+            List<RookieOutputDto> rookies = _rookiesRepository.GetAllRookies();
 
             using var workbook = new XLWorkbook();
             var worksheet = workbook.Worksheets.Add("Rookies");

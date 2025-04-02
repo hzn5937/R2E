@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Assignment2.Data.Models.Person>
+﻿@model IEnumerable<Assignment2.Model.RookieDto.RookieOutputDto>
 
 @{
     ViewData["Title"] = "GetFullnames";
@@ -24,7 +24,7 @@
                 @Html.DisplayFor(modelItem => item.Id)
             </td>
             <td>
-                @item.FullName()
+                @item.LastName @item.FirstName
             </td>
         </tr>
 }

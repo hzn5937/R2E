@@ -73,35 +73,93 @@ namespace Assignment2.Data.Repositories
             _rookies.Add(person);
         }
 
-        public List<Person> GetAllRookies()
+        public List<RookieOutputDto> GetAllRookies()
         {
-            return _rookies;
+            List<RookieOutputDto> output = _rookies.Select(p => new RookieOutputDto
+                {
+                    Id = p.Id,
+                    FirstName = p.FirstName,
+                    LastName = p.LastName,
+                    Gender = p.Gender,
+                    DateOfBirth = p.DateOfBirth,
+                    PhoneNumber = p.PhoneNumber,
+                    BirthPlace = p.BirthPlace,
+                    IsGraduated = p.IsGraduated
+                })
+                .ToList();
+
+            return output;
         }
 
-        public List<Person> GetMales()
+        public List<RookieOutputDto> GetMales()
         {
-            List<Person> maleRookies = _rookies.Where(p => p.Gender.Equals(Gender.Male)).ToList();
+            List<RookieOutputDto> maleRookies = _rookies.Where(p => p.Gender.Equals(Gender.Male))
+                .Select(p => new RookieOutputDto
+                {
+                    Id = p.Id,
+                    FirstName = p.FirstName,
+                    LastName = p.LastName,
+                    Gender = p.Gender,
+                    DateOfBirth = p.DateOfBirth,
+                    PhoneNumber = p.PhoneNumber,
+                    BirthPlace = p.BirthPlace,
+                    IsGraduated = p.IsGraduated
+                })
+                .ToList();
 
             return maleRookies;
         }
 
-        public List<Person> GetRookiesBornAfter(int year)
+        public List<RookieOutputDto> GetRookiesBornAfter(int year)
         {
-            List<Person> rookiesBornAfter = _rookies.Where(p => p.DateOfBirth.Year > year).ToList();
+            List<RookieOutputDto> rookiesBornAfter = _rookies.Where(p => p.DateOfBirth.Year > year)
+                .Select(p => new RookieOutputDto
+                {
+                    Id = p.Id,
+                    FirstName = p.FirstName,
+                    LastName = p.LastName,
+                    Gender = p.Gender,
+                    DateOfBirth = p.DateOfBirth,
+                    PhoneNumber = p.PhoneNumber,
+                    BirthPlace = p.BirthPlace,
+                    IsGraduated = p.IsGraduated
+                }).ToList();
 
             return rookiesBornAfter;
         }
 
-        public List<Person> GetRookiesBornBefore(int year)
+        public List<RookieOutputDto> GetRookiesBornBefore(int year)
         {
-            List<Person> rookiesBornBefore = _rookies.Where(p => p.DateOfBirth.Year < year).ToList();
+            List<RookieOutputDto> rookiesBornBefore = _rookies.Where(p => p.DateOfBirth.Year < year)
+                .Select(p => new RookieOutputDto
+                {
+                    Id = p.Id,
+                    FirstName = p.FirstName,
+                    LastName = p.LastName,
+                    Gender = p.Gender,
+                    DateOfBirth = p.DateOfBirth,
+                    PhoneNumber = p.PhoneNumber,
+                    BirthPlace = p.BirthPlace,
+                    IsGraduated = p.IsGraduated
+                }).ToList();
 
             return rookiesBornBefore;
         }
 
-        public List<Person> GetRookiesBornIn(int year)
+        public List<RookieOutputDto> GetRookiesBornIn(int year)
         {
-            List<Person> rookiesBornIn = _rookies.Where(p => p.DateOfBirth.Year == year).ToList();
+            List<RookieOutputDto> rookiesBornIn = _rookies.Where(p => p.DateOfBirth.Year == year)
+                .Select(p => new RookieOutputDto
+                {
+                    Id = p.Id,
+                    FirstName = p.FirstName,
+                    LastName = p.LastName,
+                    Gender = p.Gender,
+                    DateOfBirth = p.DateOfBirth,
+                    PhoneNumber = p.PhoneNumber,
+                    BirthPlace = p.BirthPlace,
+                    IsGraduated = p.IsGraduated
+                }).ToList();
 
             return rookiesBornIn;
         }

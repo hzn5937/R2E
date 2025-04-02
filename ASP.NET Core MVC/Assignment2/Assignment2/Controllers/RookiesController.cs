@@ -24,6 +24,21 @@ namespace Assignment2.Controllers
             return View();
         }
 
+        [HttpGet("Rookies/All")]
+        public IActionResult ViewAllRookies(int pageNum)
+        {
+            try
+            {
+                List<RookieOutputDto> rookies = _rookiesService.GetAllRookies();
+                return View(rookies);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, "Error getting all rookies");
+                return RedirectToAction(nameof(Index));
+            }
+        }
+
         public IActionResult Delete(int rookieId)
         {
             try
@@ -157,27 +172,12 @@ namespace Assignment2.Controllers
             }
         }
 
-        [HttpGet("Rookies/All")]
-        public IActionResult ViewAllRookies()
-        {
-            try
-            {
-                List<Person> rookies = _rookiesService.GetAllRookies();
-                return View(rookies);
-            }
-            catch (Exception e)
-            {
-                _logger.LogError(e, "Error getting all rookies");
-                return RedirectToAction(nameof(Index));
-            }
-        }
-
         [HttpGet("Rookies/Males")]
         public IActionResult GetMaleRookies()
         {
             try
             {
-                List<Person> maleRookies = _rookiesService.GetMales();
+                List<RookieOutputDto> maleRookies = _rookiesService.GetMales();
 
                 return View(maleRookies);
             }
@@ -195,7 +195,7 @@ namespace Assignment2.Controllers
         {
             try
             {
-                Person oldestRookie = _rookiesService.GetOldestRookie();
+                RookieOutputDto oldestRookie = _rookiesService.GetOldestRookie();
 
                 return View(oldestRookie);
             }
@@ -212,7 +212,7 @@ namespace Assignment2.Controllers
         {
             try
             {
-                List<Person> rookies = _rookiesService.GetAllRookies();
+                List<RookieOutputDto> rookies = _rookiesService.GetAllRookies();
 
                 return View(rookies);
             }
@@ -256,7 +256,7 @@ namespace Assignment2.Controllers
         {
             try
             {
-                List<Person> rookies = _rookiesService.GetRookiesBornIn(year);
+                List<RookieOutputDto> rookies = _rookiesService.GetRookiesBornIn(year);
                 ViewBag.Year = year;
                 return View(rookies);
             }
@@ -272,7 +272,7 @@ namespace Assignment2.Controllers
         {
             try
             {
-                List<Person> rookies = _rookiesService.GetRookiesBornAfter(year);
+                List<RookieOutputDto> rookies = _rookiesService.GetRookiesBornAfter(year);
                 ViewBag.Year = year;
                 return View(rookies);
             }
@@ -288,7 +288,7 @@ namespace Assignment2.Controllers
         {
             try
             {
-                List<Person> rookies = _rookiesService.GetRookiesBornBefore(year);
+                List<RookieOutputDto> rookies = _rookiesService.GetRookiesBornBefore(year);
                 ViewBag.Year = year;
                 return View(rookies);
             }

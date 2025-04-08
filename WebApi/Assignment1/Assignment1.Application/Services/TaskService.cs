@@ -33,7 +33,7 @@ namespace Assignment1.Application.Services
                 throw new ConflictException($"A task with the title {request.Title.ToLower()} already exists.");
             }
 
-            var task = _mapper.Map<TaskItem>(request);
+            TaskItem task = _mapper.Map<TaskItem>(request);
             task.Id = Guid.NewGuid();
 
             var created = await _repository.CreateAsync(task);

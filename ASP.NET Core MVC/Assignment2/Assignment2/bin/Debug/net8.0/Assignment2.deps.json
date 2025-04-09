@@ -1475,14 +1475,7 @@
           }
         }
       },
-      "System.Formats.Asn1/8.0.1": {
-        "runtime": {
-          "lib/net8.0/System.Formats.Asn1.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
-        }
-      },
+      "System.Formats.Asn1/8.0.1": {},
       "System.IO.Packaging/8.0.1": {
         "runtime": {
           "lib/net8.0/System.IO.Packaging.dll": {
@@ -1577,7 +1570,10 @@
           "ClosedXML": "0.104.2"
         },
         "runtime": {
-          "Assignment2.BusinessLogic.dll": {}
+          "Assignment2.BusinessLogic.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Assignment2.Data/1.0.0": {
@@ -1585,12 +1581,18 @@
           "Assignment2.Model": "1.0.0"
         },
         "runtime": {
-          "Assignment2.Data.dll": {}
+          "Assignment2.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Assignment2.Model/1.0.0": {
         "runtime": {
-          "Assignment2.Model.dll": {}
+          "Assignment2.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

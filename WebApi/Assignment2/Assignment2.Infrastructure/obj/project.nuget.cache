@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "XyBcrlJ8TsQ=",
+  "dgSpecHash": "idGV5Ui+DN4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hzn\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
-    "C:\\Users\\hzn\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
-    "C:\\Users\\hzn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\hzn\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\hzn\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\harun\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\harun\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\harun\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\harun\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\harun\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

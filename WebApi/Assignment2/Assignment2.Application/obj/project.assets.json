@@ -259,23 +259,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hzn\\.nuget\\packages\\": {},
+    "C:\\Users\\harun\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
+      "projectUniqueName": "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
       "projectName": "Assignment2.Application",
-      "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
-      "packagesPath": "C:\\Users\\hzn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Application\\obj\\",
+      "projectPath": "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
+      "packagesPath": "C:\\Users\\harun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hzn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\harun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -291,8 +291,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj": {
-              "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj"
+            "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj": {
+              "projectPath": "C:\\Users\\harun\\OneDrive - Swinburne University\\NashTech\\R2E\\WebApi\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj"
             }
           }
         }
@@ -306,7 +306,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -337,7 +338,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

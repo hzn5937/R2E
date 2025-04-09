@@ -485,3 +485,5 @@ C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Ass
 C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\obj\Debug\net8.0\ref\Assignment2.dll
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.Model.dll
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.Model.pdb
+C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.Model.dll
+C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.Model.pdb

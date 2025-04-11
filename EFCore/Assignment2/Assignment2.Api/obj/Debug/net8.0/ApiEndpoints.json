@@ -1,0 +1,202 @@
+[
+  {
+    "ContainingType": "Assignment2.Api.Controllers.DepartmentController",
+    "Method": "GetDepartments",
+    "RelativePath": "api/departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.DepartmentController",
+    "Method": "CreateDepartment",
+    "RelativePath": "api/departments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDto",
+        "Type": "Assignment2.Application.DTOs.Departments.CreateDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.DepartmentController",
+    "Method": "GetDepartmentById",
+    "RelativePath": "api/departments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.DepartmentController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/departments/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "departmentDto",
+        "Type": "Assignment2.Application.DTOs.Departments.UpdateDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.DepartmentController",
+    "Method": "DeleteDepartment",
+    "RelativePath": "api/departments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.EmployeeController",
+    "Method": "GetEmployees",
+    "RelativePath": "api/employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.EmployeeController",
+    "Method": "CreateEmployee",
+    "RelativePath": "api/employees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeDto",
+        "Type": "Assignment2.Application.DTOs.Employees.CreateEmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.EmployeeController",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/employees/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.EmployeeController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/employees/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateEmployeeDto",
+        "Type": "Assignment2.Application.DTOs.Employees.UpdateEmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/employees/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.SalaryController",
+    "Method": "CreateSalary",
+    "RelativePath": "api/salaries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salaryDto",
+        "Type": "Assignment2.Application.DTOs.Salaries.CreateSalaryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.SalaryController",
+    "Method": "GetSalaries",
+    "RelativePath": "api/salaries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment2.Api.Controllers.SalaryController",
+    "Method": "GetSalaryById",
+    "RelativePath": "api/salaries/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

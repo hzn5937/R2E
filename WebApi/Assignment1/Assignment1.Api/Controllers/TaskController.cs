@@ -54,17 +54,10 @@ namespace Assignment1.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] TaskCreateDto task)
         {
-            try
-            {
-                var createdTask = await _taskService.CreateAsync(task);
+            var createdTask = await _taskService.CreateAsync(task);
 
-                return CreatedAtAction(nameof(GetById), new { id = createdTask.Id }, createdTask);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "An error occurred while creating task");
-                return StatusCode(500, "Internal server error");
-            }
+            return CreatedAtAction(nameof(GetById), new { id = createdTask.Id }, createdTask);
+           
         }
 
         [HttpPut("{id}")]

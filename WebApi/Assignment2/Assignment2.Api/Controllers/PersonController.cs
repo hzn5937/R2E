@@ -25,22 +25,14 @@ namespace Assignment2.Api.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> CreatePerson([FromBody] PersonCreateDto personCreateDto)
         {
-            try
+            if (personCreateDto == null)
             {
-                if (personCreateDto == null)
-                {
-                    return BadRequest("Person data is null");
-                }
-
-                var createdPerson = await _personService.CreatePersonAsync(personCreateDto);
-
-                return CreatedAtAction(nameof(GetPersonById), new { id = createdPerson.Id }, createdPerson);
+                return BadRequest("Person data is null");
             }
-            catch (Exception ex)
-            {
-                _logger.LogError($"{ex} An error occurred while creating a person: {ex.Message}");
-                return StatusCode(500, "Internal server error");
-            }
+
+            var createdPerson = await _personService.CreatePersonAsync(personCreateDto);
+
+            return CreatedAtAction(nameof(GetPersonById), new { id = createdPerson.Id }, createdPerson);
         }
 
         [HttpPatch("{id}")]

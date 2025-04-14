@@ -293,13 +293,26 @@ namespace Assignment2.BusinessLogic.Test
         }
 
         [Test]
+        public void GetMales_NoMaleRookies_ReturnEmptyList()
+        {
+            // Arrange
+            var rookies = new List<RookieOutputDto>();
+            _mockRookiesRepository.Setup(repo => repo.GetMales()).Returns(rookies);
+
+            // Act
+            var result = _rookiesService.GetMales();
+
+            Assert.IsNotNull(result);
+            Assert.IsEmpty(result); // Expecting an empty list
+        }
+
+        [Test]
         public void GetOldestRookie_ReturnsCorrectRookie()
         {
             // Arrange
             var testData = GetTestRookies();
-            // Oldest has the minimum DateOfBirth
             var expectedOldest = testData.OrderBy(p => p.DateOfBirth).First();
-            _mockRookiesRepository.Setup(repo => repo.GetAllRookies()).Returns(testData); // Service calls GetAllRookies
+            _mockRookiesRepository.Setup(repo => repo.GetAllRookies()).Returns(testData);
 
             // Act
             var result = _rookiesService.GetOldestRookie();
@@ -319,9 +332,8 @@ namespace Assignment2.BusinessLogic.Test
             _mockRookiesRepository.Setup(repo => repo.GetAllRookies()).Returns(emptyList);
 
             // Act & Assert
-            // The service uses LINQ .Last() on OrderByDescending, equivalent to First() on OrderBy, throws on empty sequence
             Assert.Throws<InvalidOperationException>(() => _rookiesService.GetOldestRookie());
-            _mockRookiesRepository.Verify(repo => repo.GetAllRookies(), Times.Once); // Verify it was called even though it threw later
+            _mockRookiesRepository.Verify(repo => repo.GetAllRookies(), Times.Once);
         }
 
         [Test]
@@ -403,7 +415,7 @@ namespace Assignment2.BusinessLogic.Test
         {
             // Arrange
             var testData = GetTestRookies();
-            _mockRookiesRepository.Setup(repo => repo.GetAllRookies()).Returns(testData); // GetExcel uses GetAllRookies
+            _mockRookiesRepository.Setup(repo => repo.GetAllRookies()).Returns(testData);
 
             // Act
             Stream result = null;
@@ -413,14 +425,11 @@ namespace Assignment2.BusinessLogic.Test
 
                 // Assert
                 Assert.IsNotNull(result);
-                Assert.IsTrue(result.CanRead); // Check if stream is readable
-                Assert.AreEqual(0, result.Position); // Stream position should be reset to 0 for reading
-                Assert.Greater(result.Length, 0); // Check if stream has content
-                _mockRookiesRepository.Verify(repo => repo.GetAllRookies(), Times.Once); // Verify dependency call
-
-                // Note: Verifying the actual Excel content is more of an integration test
-                // and requires reading the stream with an Excel library (like ClosedXML)
-                // which adds complexity to a unit test. Checking if the stream is valid and non-empty is often sufficient here.
+                Assert.IsTrue(result.CanRead);
+                Assert.AreEqual(0, result.Position);
+                Assert.Greater(result.Length, 0);
+                _mockRookiesRepository.Verify(repo => repo.GetAllRookies(), Times.Once);
+                // Verifying the actual Excel content is more of an integration test
             }
             finally
             {

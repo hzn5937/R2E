@@ -52,11 +52,33 @@ namespace Assignment2.BusinessLogic.Services
             return output;
         }
 
-        public RookieOutputDto GetRookieById(int id)
+        public T? GetRookieById<T>(int id) where T : class
         {
-            RookieOutputDto rookie = _rookiesRepository.GetRookieById(id);
+            if (typeof(T) == typeof(RookieOutputDto))
+            {
+                return _rookiesRepository.GetRookieById(id) as T;
+            }
 
-            return rookie;
+            if (typeof(T) == typeof(RookieInputDto))
+            {
+                var output = _rookiesRepository.GetRookieById(id);
+
+                var input = new RookieInputDto
+                {
+                    Id = output.Id,
+                    FirstName = output.FirstName,
+                    LastName = output.LastName,
+                    Gender = output.Gender,
+                    DateOfBirth = output.DateOfBirth,
+                    PhoneNumber = output.PhoneNumber,
+                    BirthPlace = output.BirthPlace,
+                    IsGraduated = output.IsGraduated
+                };
+
+                return input as T;
+            }
+
+            throw new InvalidOperationException("Unsupported type requested");
         }
 
         public void DeleteRookie(int id)

@@ -3,7 +3,7 @@ using Assignment2.Model;
 
 namespace Assignment2.Data.DataGenerator
 {
-    internal static class DummyDataGenerator
+    public static class DummyDataGenerator
     {
         public static List<Person> GetRookies()
         {

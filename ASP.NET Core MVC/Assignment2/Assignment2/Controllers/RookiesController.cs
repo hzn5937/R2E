@@ -60,7 +60,7 @@ namespace Assignment2.Controllers
         {
             try
             {
-                RookieOutputDto rookie = _rookiesService.GetRookieById(rookieId);
+                RookieOutputDto? rookie = _rookiesService.GetRookieById<RookieOutputDto>(rookieId);
                 return View(rookie);
             }
             catch (Exception e)
@@ -74,19 +74,7 @@ namespace Assignment2.Controllers
         {
             try
             {
-                RookieOutputDto rookie = _rookiesService.GetRookieById(rookieId);
-
-                RookieInputDto rookieInputDto = new RookieInputDto()
-                {
-                    Id = rookie.Id,
-                    FirstName = rookie.FirstName,
-                    LastName = rookie.LastName,
-                    Gender = rookie.Gender,
-                    DateOfBirth = rookie.DateOfBirth,
-                    PhoneNumber = rookie.PhoneNumber,
-                    BirthPlace = rookie.BirthPlace,
-                    IsGraduated = rookie.IsGraduated
-                };
+                RookieInputDto? rookie = _rookiesService.GetRookieById<RookieInputDto>(rookieId);
 
                 var genderOptions = new List<SelectListItem>
                 {
@@ -96,7 +84,7 @@ namespace Assignment2.Controllers
 
                 ViewBag.GenderList = genderOptions;
 
-                return View(rookieInputDto);
+                return View(rookie);
             }
             catch (Exception e)
             {

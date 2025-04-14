@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2.Data", "Assignm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2.Model", "Assignment2.Model\Assignment2.Model.csproj", "{4E12EA45-CBCB-4878-88A0-96C038A0A471}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2.BusinessLogic.Test", "Assignment2.BusinessLogic.Test\Assignment2.BusinessLogic.Test.csproj", "{F28D84AD-F1D5-59B8-0770-55D92F0990EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4E12EA45-CBCB-4878-88A0-96C038A0A471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E12EA45-CBCB-4878-88A0-96C038A0A471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E12EA45-CBCB-4878-88A0-96C038A0A471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28D84AD-F1D5-59B8-0770-55D92F0990EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28D84AD-F1D5-59B8-0770-55D92F0990EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28D84AD-F1D5-59B8-0770-55D92F0990EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28D84AD-F1D5-59B8-0770-55D92F0990EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

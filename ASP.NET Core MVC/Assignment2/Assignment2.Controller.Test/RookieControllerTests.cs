@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Assignment2.BusinessLogic.Interfaces;
+﻿using Assignment2.BusinessLogic.Interfaces;
 using Assignment2.BusinessLogic.Services;
 using Assignment2.Controllers;
 using Assignment2.Model;
 using Assignment2.Model.RookieDto;
-using Castle.Core.Logging;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.Extensions.Logging;
 using Moq;
 
@@ -274,7 +266,6 @@ namespace Assignment2.Web.Test
             VerifyLogError<Exception>(Times.Once());
             _mockRookiesService.Verify(s => s.UpdateRookie(rookieToUpdate), Times.Once);
         }
-
 
         [Test]
         public void CreateGet_Always_ReturnsViewResultWithViewBag()

@@ -230,7 +230,7 @@ namespace Assignment2.Controllers
                 if (redirectActionName == "error")
                 {
                     return View();
-                }
+                }   
 
                 return RedirectToAction(redirectActionName, new { year });
             }

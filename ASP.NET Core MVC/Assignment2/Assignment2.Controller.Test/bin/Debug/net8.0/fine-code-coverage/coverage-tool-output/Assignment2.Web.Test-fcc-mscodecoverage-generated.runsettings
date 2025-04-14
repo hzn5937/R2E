@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
   <RunConfiguration>
-    <ResultsDirectory>C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Controller.Test\bin\Debug\net8.0\fine-code-coverage\coverage-tool-output</ResultsDirectory>
-    <TestAdaptersPaths>C:\Users\harun\AppData\Local\FineCodeCoverage\msCodeCoverage\17.13.0\build\netstandard2.0</TestAdaptersPaths>
+    <ResultsDirectory>C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Controller.Test\bin\Debug\net8.0\fine-code-coverage\coverage-tool-output</ResultsDirectory>
+    <TestAdaptersPaths>C:\Users\hzn\AppData\Local\FineCodeCoverage\msCodeCoverage\17.13.0\build\netstandard2.0</TestAdaptersPaths>
     <CollectSourceInformation>False</CollectSourceInformation>
   </RunConfiguration>
   <DataCollectionRunSettings>
@@ -11,9 +11,7 @@
         <Configuration>
           <CodeCoverage>
             <ModulePaths>
-              <Exclude>
-                <ModulePath>C:\\Users\\harun\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Controller.Test\\bin\\Debug\\net8.0\\Assignment2.Web.Test.dll</ModulePath>
-              </Exclude>
+              <Exclude></Exclude>
               <Include></Include>
             </ModulePaths>
             <Functions>

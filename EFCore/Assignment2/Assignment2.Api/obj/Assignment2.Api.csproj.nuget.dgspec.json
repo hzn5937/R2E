@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\Assignment2.Api.csproj": {}
+    "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\Assignment2.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\Assignment2.Api.csproj": {
+    "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\Assignment2.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\Assignment2.Api.csproj",
+        "projectUniqueName": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\Assignment2.Api.csproj",
         "projectName": "Assignment2.Api",
-        "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\Assignment2.Api.csproj",
+        "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\Assignment2.Api.csproj",
         "packagesPath": "C:\\Users\\hzn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\obj\\",
+        "outputPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj": {
-                "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj"
+              "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj": {
+                "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj"
               },
-              "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj"
+              "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +51,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -97,18 +98,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj": {
+    "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
+        "projectUniqueName": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
         "projectName": "Assignment2.Application",
-        "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
+        "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
         "packagesPath": "C:\\Users\\hzn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\obj\\",
+        "outputPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -130,8 +131,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj": {
-                "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj"
+              "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj": {
+                "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj"
               }
             }
           }
@@ -145,7 +146,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -176,18 +178,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj": {
+    "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj",
         "projectName": "Assignment2.Domain",
-        "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj",
+        "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\Assignment2.Domain.csproj",
         "packagesPath": "C:\\Users\\hzn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\obj\\",
+        "outputPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -220,7 +222,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -241,18 +244,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj": {
+    "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj",
         "projectName": "Assignment2.Infrastructure",
-        "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\hzn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -274,8 +277,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj": {
-                "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj"
+              "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj": {
+                "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj"
               }
             }
           }
@@ -289,7 +292,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -328,7 +332,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

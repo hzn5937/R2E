@@ -91,7 +91,6 @@ C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assig
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\System.Security.Permissions.dll
@@ -487,3 +486,7 @@ C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assig
 C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.Model.pdb
 C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.Model.dll
 C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.Model.pdb
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\bin\Debug\net8.0\Assignment2.staticwebassets.endpoints.json
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\obj\Debug\net8.0\staticwebassets\msbuild.Assignment2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -16,7 +16,10 @@
       },
       "Assignment2.Model/1.0.0": {
         "runtime": {
-          "Assignment2.Model.dll": {}
+          "Assignment2.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

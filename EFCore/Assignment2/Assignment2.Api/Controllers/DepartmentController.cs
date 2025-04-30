@@ -48,7 +48,7 @@ namespace Assignment2.Api.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(typeof(DepartmentOutputDto), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(DepartmentOutputDto), StatusCodes.Status201publid)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status409Conflict)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]

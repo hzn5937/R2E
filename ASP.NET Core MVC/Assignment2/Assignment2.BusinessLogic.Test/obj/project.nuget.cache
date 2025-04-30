@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "WIW9NWt3Gzo=",
+=======
+  "dgSpecHash": "aowb2qWJFBc=",
+>>>>>>> cc6a52d11bc8b960c9934f35dc148db08167ae8c
   "success": true,
-  "projectFilePath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.BusinessLogic.Test\\Assignment2.BusinessLogic.Test.csproj",
+  "projectFilePath": "C:\\Users\\hzn\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.BusinessLogic.Test\\Assignment2.BusinessLogic.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hzn\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\hzn\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",

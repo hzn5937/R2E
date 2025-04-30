@@ -17,93 +17,96 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Assignment2
 build_property.RootNamespace = Assignment2
-build_property.ProjectDir = C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2\
+build_property.ProjectDir = C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2
+build_property.MSBuildProjectDirectory = C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
+<<<<<<< HEAD
 
 [C:/Users/hzn/AppData/Roaming/SonarLint for Visual Studio/.global/csharp/SonarLint.xml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 
+=======
+>>>>>>> cc6a52d11bc8b960c9934f35dc148db08167ae8c
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Home/Index.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Home/Privacy.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/BornAfter.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/BornAfter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xCb3JuQWZ0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/BornBefore.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/BornBefore.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xCb3JuQmVmb3JlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/BornIn.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/BornIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xCb3JuSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/Create.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/Details.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/Edit.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/FilterByBirthYear.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/FilterByBirthYear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xGaWx0ZXJCeUJpcnRoWWVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/GetFullnames.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/GetFullnames.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xHZXRGdWxsbmFtZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/GetMaleRookies.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/GetMaleRookies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xHZXRNYWxlUm9va2llcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/GetOldest.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/GetOldest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xHZXRPbGRlc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/Index.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/ViewAllRookies.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Rookies/ViewAllRookies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9va2llc1xWaWV3QWxsUm9va2llcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Shared/Error.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/_ViewImports.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/_ViewStart.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hzn/OneDrive - Swinburne University/NashTech/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Shared/_Layout.cshtml]
+[C:/Users/harun/Desktop/R2E/ASP.NET Core MVC/Assignment2/Assignment2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ca6zl704m4

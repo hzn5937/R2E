@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "53/QulFOiXI=",
+=======
+  "dgSpecHash": "JQFBVtf0Whk=",
+>>>>>>> cc6a52d11bc8b960c9934f35dc148db08167ae8c
   "success": true,
-  "projectFilePath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Model\\Assignment2.Model.csproj",
+  "projectFilePath": "C:\\Users\\hzn\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Model\\Assignment2.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

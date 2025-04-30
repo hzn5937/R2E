@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
   <RunConfiguration>
+<<<<<<< HEAD
     <ResultsDirectory>C:\Users\hzn\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2.BusinessLogic.Test\bin\Debug\net8.0\fine-code-coverage\coverage-tool-output</ResultsDirectory>
     <TestAdaptersPaths>C:\Users\hzn\AppData\Local\FineCodeCoverage\msCodeCoverage\17.13.0\build\netstandard2.0</TestAdaptersPaths>
+=======
+    <ResultsDirectory>C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.BusinessLogic.Test\bin\Debug\net8.0\fine-code-coverage\coverage-tool-output</ResultsDirectory>
+    <TestAdaptersPaths>C:\Users\harun\AppData\Local\FineCodeCoverage\msCodeCoverage\17.13.0\build\netstandard2.0</TestAdaptersPaths>
+>>>>>>> cc6a52d11bc8b960c9934f35dc148db08167ae8c
     <CollectSourceInformation>False</CollectSourceInformation>
   </RunConfiguration>
   <DataCollectionRunSettings>
@@ -11,7 +16,13 @@
         <Configuration>
           <CodeCoverage>
             <ModulePaths>
+<<<<<<< HEAD
               <Exclude></Exclude>
+=======
+              <Exclude>
+                <ModulePath>C:\\Users\\harun\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.BusinessLogic.Test\\bin\\Debug\\net8.0\\Assignment2.BusinessLogic.Test.dll</ModulePath>
+              </Exclude>
+>>>>>>> cc6a52d11bc8b960c9934f35dc148db08167ae8c
               <Include></Include>
             </ModulePaths>
             <Functions>

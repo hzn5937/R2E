@@ -22,3 +22,27 @@ C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Ass
 C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\refint\Assignment2.Model.dll
 C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.pdb
 C:\Users\harun\OneDrive - Swinburne University\NashTech\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\ref\Assignment2.Model.dll
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\bin\Debug\net8.0\Assignment2.Model.deps.json
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\bin\Debug\net8.0\Assignment2.Model.dll
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\bin\Debug\net8.0\Assignment2.Model.pdb
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.AssemblyInfoInputs.cache
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.AssemblyInfo.cs
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.csproj.CoreCompileInputs.cache
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.sourcelink.json
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.dll
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\refint\Assignment2.Model.dll
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.pdb
+C:\Users\harun\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\ref\Assignment2.Model.dll
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\bin\Debug\net8.0\Assignment2.Model.deps.json
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\bin\Debug\net8.0\Assignment2.Model.dll
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\bin\Debug\net8.0\Assignment2.Model.pdb
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.AssemblyInfoInputs.cache
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.AssemblyInfo.cs
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.csproj.CoreCompileInputs.cache
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.sourcelink.json
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.dll
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\refint\Assignment2.Model.dll
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\Assignment2.Model.pdb
+C:\Users\hzn\Desktop\R2E\ASP.NET Core MVC\Assignment2\Assignment2.Model\obj\Debug\net8.0\ref\Assignment2.Model.dll

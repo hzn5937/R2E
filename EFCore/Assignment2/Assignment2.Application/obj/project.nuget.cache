@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Ta8plthE7+U=",
+=======
+  "dgSpecHash": "6LpD6Ia0yyg=",
+>>>>>>> cc6a52d11bc8b960c9934f35dc148db08167ae8c
   "success": true,
-  "projectFilePath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
+  "projectFilePath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Application\\Assignment2.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hzn\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\hzn\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

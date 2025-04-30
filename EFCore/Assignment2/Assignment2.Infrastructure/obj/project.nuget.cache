@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0GkuQbSvvKg=",
+=======
+  "dgSpecHash": "gjr2yRNhAfM=",
+>>>>>>> cc6a52d11bc8b960c9934f35dc148db08167ae8c
   "success": true,
-  "projectFilePath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\hzn\\Desktop\\R2E\\EFCore\\Assignment2\\Assignment2.Infrastructure\\Assignment2.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hzn\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\hzn\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

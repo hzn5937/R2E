@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Data\\Assignment2.Data.csproj",
+      "projectUniqueName": "C:\\Users\\hzn\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Data\\Assignment2.Data.csproj",
       "projectName": "Assignment2.Data",
-      "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Data\\Assignment2.Data.csproj",
+      "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Data\\Assignment2.Data.csproj",
       "packagesPath": "C:\\Users\\hzn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Data\\obj\\",
+      "outputPath": "C:\\Users\\hzn\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Model\\Assignment2.Model.csproj": {
-              "projectPath": "C:\\Users\\hzn\\OneDrive - Swinburne University\\NashTech\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Model\\Assignment2.Model.csproj"
+            "C:\\Users\\hzn\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Model\\Assignment2.Model.csproj": {
+              "projectPath": "C:\\Users\\hzn\\Desktop\\R2E\\ASP.NET Core MVC\\Assignment2\\Assignment2.Model\\Assignment2.Model.csproj"
             }
           }
         }
